@@ -1,0 +1,46 @@
+body {
+    background: #fff;
+}
+
+#pageTitle {
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+    height: 200px;
+
+    h1 {
+        margin: 0;
+        font-size: 52px;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 1.1em;
+    }
+}
+
+.menu-column {
+    background: #f8f8f8;
+    border-radius: 15px;
+
+    .menu-item {
+        .menu-link,
+        .menu-content {
+            padding: 5px 20px;
+        }
+    }
+
+    .menu-heading {
+        color: #000;
+    }
+}
+
+.access-num-col {
+    width: 650px;
+}
+
+#loginFormHolder {
+    background: #f8f8f8;
+}
+
+.btn.btn-primary {
+    background: #0F02FF;
+}

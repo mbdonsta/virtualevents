@@ -1,0 +1,16 @@
+$gray-600: #7E8299;
+$gray-900: #181C32;
+$gray-bg: #F3F6F9;
+
+.menu-link {
+    color: $gray-600;
+
+    &:hover, &:focus {
+        color: $gray-900;
+    }
+
+    &.active {
+        background-color: $gray-bg;
+        color: $gray-900;
+    }
+}

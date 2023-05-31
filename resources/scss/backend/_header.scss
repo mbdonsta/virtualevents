@@ -1,0 +1,47 @@
+.dropdown-element {
+    position: relative;
+
+    &:hover {
+        .menu-sub {
+            display: block;
+        }
+    }
+
+    .menu-sub {
+        top: 90%;
+        right: 0;
+    }
+}
+
+#header {
+    padding: 24px 0;
+    background: #fff;
+
+    .logo {
+        img {
+            width: 120px;
+        }
+    }
+
+    #navigation {
+        > a {
+            margin: 0 24px;
+            padding: 20px 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #000;
+        }
+    }
+
+    .logout {
+        margin: 0 24px;
+        padding: 20px 8px;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #000;
+    }
+}

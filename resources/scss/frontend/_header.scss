@@ -1,0 +1,14 @@
+.dropdown-element {
+    position: relative;
+
+    &:hover {
+        .menu-sub {
+            display: block;
+        }
+    }
+
+    .menu-sub {
+        top: 90%;
+        right: 0;
+    }
+}
